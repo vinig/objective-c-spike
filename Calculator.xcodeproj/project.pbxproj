@@ -21,7 +21,8 @@
 		249C438918FFD739002FDC3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249C436518FFD739002FDC3F /* Foundation.framework */; };
 		249C438A18FFD739002FDC3F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249C436918FFD739002FDC3F /* UIKit.framework */; };
 		249C439218FFD739002FDC3F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 249C439018FFD739002FDC3F /* InfoPlist.strings */; };
-		249C439418FFD739002FDC3F /* CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 249C439318FFD739002FDC3F /* CalculatorTests.m */; };
+		249C439E18FFDAB8002FDC3F /* CalculatorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 249C439D18FFDAB8002FDC3F /* CalculatorTest.m */; };
+		249C43A119001B59002FDC3F /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 249C43A019001B59002FDC3F /* Calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +55,9 @@
 		249C438718FFD739002FDC3F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		249C438F18FFD739002FDC3F /* CalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		249C439118FFD739002FDC3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		249C439318FFD739002FDC3F /* CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorTests.m; sourceTree = "<group>"; };
+		249C439D18FFDAB8002FDC3F /* CalculatorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorTest.m; sourceTree = "<group>"; };
+		249C439F19001B59002FDC3F /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		249C43A019001B59002FDC3F /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				249C437E18FFD739002FDC3F /* ViewController.m */,
 				249C438018FFD739002FDC3F /* Images.xcassets */,
 				249C436C18FFD739002FDC3F /* Supporting Files */,
+				249C439F19001B59002FDC3F /* Calculator.h */,
+				249C43A019001B59002FDC3F /* Calculator.m */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -140,8 +145,8 @@
 		249C438D18FFD739002FDC3F /* CalculatorTests */ = {
 			isa = PBXGroup;
 			children = (
-				249C439318FFD739002FDC3F /* CalculatorTests.m */,
 				249C438E18FFD739002FDC3F /* Supporting Files */,
+				249C439D18FFDAB8002FDC3F /* CalculatorTest.m */,
 			);
 			path = CalculatorTests;
 			sourceTree = "<group>";
@@ -254,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				249C437F18FFD739002FDC3F /* ViewController.m in Sources */,
+				249C43A119001B59002FDC3F /* Calculator.m in Sources */,
 				249C437618FFD739002FDC3F /* AppDelegate.m in Sources */,
 				249C437218FFD739002FDC3F /* main.m in Sources */,
 			);
@@ -263,7 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				249C439418FFD739002FDC3F /* CalculatorTests.m in Sources */,
+				249C439E18FFDAB8002FDC3F /* CalculatorTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
