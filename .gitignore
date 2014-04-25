@@ -29,7 +29,6 @@ Pods
 *.perspectivev3
 *.pbxuser
 .DS_Store
-Gemfile.lock
 Podfile.lock
 node_modules
 vendor
