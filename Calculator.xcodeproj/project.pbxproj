@@ -23,6 +23,7 @@
 		249C439218FFD739002FDC3F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 249C439018FFD739002FDC3F /* InfoPlist.strings */; };
 		249C439E18FFDAB8002FDC3F /* CalculatorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 249C439D18FFDAB8002FDC3F /* CalculatorTest.m */; };
 		249C43A119001B59002FDC3F /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 249C43A019001B59002FDC3F /* Calculator.m */; };
+		24E39163190A77E600871379 /* ViewController2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E39162190A77E600871379 /* ViewController2ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		249C439D18FFDAB8002FDC3F /* CalculatorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorTest.m; sourceTree = "<group>"; };
 		249C439F19001B59002FDC3F /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
 		249C43A019001B59002FDC3F /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		24E39161190A77E600871379 /* ViewController2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2ViewController.h; sourceTree = "<group>"; };
+		24E39162190A77E600871379 /* ViewController2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				249C437418FFD739002FDC3F /* AppDelegate.h */,
 				249C437518FFD739002FDC3F /* AppDelegate.m */,
 				249C437718FFD739002FDC3F /* Main_iPhone.storyboard */,
+				24E39161190A77E600871379 /* ViewController2ViewController.h */,
+				24E39162190A77E600871379 /* ViewController2ViewController.m */,
 				249C437A18FFD739002FDC3F /* Main_iPad.storyboard */,
 				249C437D18FFD739002FDC3F /* ViewController.h */,
 				249C437E18FFD739002FDC3F /* ViewController.m */,
@@ -259,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				249C437F18FFD739002FDC3F /* ViewController.m in Sources */,
+				24E39163190A77E600871379 /* ViewController2ViewController.m in Sources */,
 				249C43A119001B59002FDC3F /* Calculator.m in Sources */,
 				249C437618FFD739002FDC3F /* AppDelegate.m in Sources */,
 				249C437218FFD739002FDC3F /* main.m in Sources */,
@@ -480,6 +486,7 @@
 				249C439918FFD739002FDC3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		249C439A18FFD739002FDC3F /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +495,7 @@
 				249C439C18FFD739002FDC3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

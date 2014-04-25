@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *counterLabel;
 
 @end
 
@@ -24,6 +25,16 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)incrementCounter:(id)sender {
+    NSInteger counterValue = [self.counterLabel.text integerValue];
+    counterValue++;
+    self.counterLabel.text = [NSString stringWithFormat:@"%ld",(long)counterValue];
+}
+
+- (IBAction)showAlert:(id)sender {
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"X CONF !!!" message:@"Wanna Attend?" delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes", nil];
+    [alertView show];
 }
 
 @end
